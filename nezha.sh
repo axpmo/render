@@ -20,9 +20,9 @@ check_dependencies() {
 
 # 下载最新版本 Nezha Agent
 download_agent() {
-  URL=$(wget -qO- -4 "https://api.github.com/repos/naiba/nezha/releases/latest" | grep -o "https.*linux_amd64.zip")
-  wget -t 2 -T 10 -N ${URL}
-  unzip -qod ./ nezha-agent_linux_amd64.zip && rm -f nezha-agent_linux_amd64.zip
+  URL=$( -qO- -4 "https://api.github.com/repos/naiba/nezha/releases/latest" | grep -o "https.*linux_amd64.zip")
+   -t 2 -T 10 -N ${URL}
+   -qod ./ nezha-agent_linux_amd64.zip && rm -f nezha-agent_linux_amd64.zip
 }
 
 # 运行客户端
