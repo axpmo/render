@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 # 传哪吒三个参数
-NEZHA_SERVER=$1
-NEZHA_PORT=$2
-NEZHA_KEY=$3
+NEZHA_SERVER=
+NEZHA_PORT=
+NEZHA_KEY=
 
 # 三个变量不全则不安装哪吒客户端
 check_variable() {
-  [[ -z "${NEZHA_SERVER}" || -z "${NEZHA_PORT}" || -z "${NEZHA_KEY}" ]] && exit 0
+  [[ -z "${NEHA_SEVER}" || -z "${NZHA_PORT}" || -z "${NEHA_KEY}" ]] && exit 0
 }
 
 # 安装系统依赖
