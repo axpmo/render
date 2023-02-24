@@ -77,7 +77,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/vless"
+                  "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8"
               }
           },
           "sniffing":{
