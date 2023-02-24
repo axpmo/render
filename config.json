@@ -11,7 +11,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"ad1ed32f-20d1-443b-9ccc-a247097211d1",
+                      "id":"aafb5331-7af3-4811-81a9-185c973512c0",
                       "flow":"xtls-rprx-direct"
                   }
               ],
@@ -21,19 +21,19 @@
                       "dest":3001
                   },
                   {
-                      "path":"/fefcb756-1663-45ba-b569-adb12301ed40",
+                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2",
                       "dest":3002
                   },
                   {
-                      "path":"/fefcb756-1663-45ba-b569-adb12301ed40vmess",
+                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2vmess",
                       "dest":3003
                   },
                   {
-                      "path":"/fefcb756-1663-45ba-b569-adb12301ed40trojan",
+                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2trojan",
                       "dest":3004
                   },
                   {
-                      "path":"/fefcb756-1663-45ba-b569-adb12301ed40shadowsocks",
+                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2shadowsocks",
                       "dest":3005
                   }
               ]
@@ -49,7 +49,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"ad1ed32f-20d1-443b-9ccc-a247097211d1"
+                      "id":"aafb5331-7af3-4811-81a9-185c973512c0"
                   }
               ],
               "decryption":"none"
@@ -66,7 +66,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"ad1ed32f-20d1-443b-9ccc-a247097211d1",
+                      "id":"aafb5331-7af3-4811-81a9-185c973512c0",
                       "level":0,
                       "email":"argo@xray"
                   }
@@ -77,7 +77,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/fefcb756-1663-45ba-b569-adb12301ed40"
+                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2"
               }
           },
           "sniffing":{
@@ -97,7 +97,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"ad1ed32f-20d1-443b-9ccc-a247097211d1",
+                      "id":"aafb5331-7af3-4811-81a9-185c973512c0",
                       "alterId":0
                   }
               ]
@@ -105,7 +105,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/fefcb756-1663-45ba-b569-adb12301ed40vmess"
+                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2vmess"
               }
           },
           "sniffing":{
@@ -125,7 +125,7 @@
           "settings":{
               "clients":[
                   {
-                      "password":"ad1ed32f-20d1-443b-9ccc-a247097211d1"
+                      "password":"aafb5331-7af3-4811-81a9-185c973512c0"
                   }
               ]
           },
@@ -133,7 +133,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/fefcb756-1663-45ba-b569-adb12301ed40trojan"
+                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2trojan"
               }
           },
           "sniffing":{
@@ -154,7 +154,7 @@
               "clients":[
                   {
                       "method":"chacha20-ietf-poly1305",
-                      "password":"ad1ed32f-20d1-443b-9ccc-a247097211d1"
+                      "password":"aafb5331-7af3-4811-81a9-185c973512c0"
                   }
               ],
               "decryption":"none"
@@ -162,7 +162,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/fefcb756-1663-45ba-b569-adb12301ed40shadowsocks"
+                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2shadowsocks"
               }
           },
           "sniffing":{
