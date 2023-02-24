@@ -11,7 +11,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"de04add9-5c68-8bab-950c-08cd5320df18",
+                      "id":"6ddd50ce-f0c3-4e5a-8f05-dec1745cf62a",
                       "flow":"xtls-rprx-direct"
                   }
               ],
@@ -21,19 +21,19 @@
                       "dest":3001
                   },
                   {
-                      "path":"/vless",
+                      "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8",
                       "dest":3002
                   },
                   {
-                      "path":"/vmess",
+                      "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8vmess",
                       "dest":3003
                   },
                   {
-                      "path":"/trojan",
+                      "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8trojan",
                       "dest":3004
                   },
                   {
-                      "path":"/shadowsocks",
+                      "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8shadowsocks",
                       "dest":3005
                   }
               ]
@@ -49,7 +49,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"de04add9-5c68-8bab-950c-08cd5320df18"
+                      "id":"6ddd50ce-f0c3-4e5a-8f05-dec1745cf62a"
                   }
               ],
               "decryption":"none"
@@ -66,7 +66,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"de04add9-5c68-8bab-950c-08cd5320df18",
+                      "id":"6ddd50ce-f0c3-4e5a-8f05-dec1745cf62a",
                       "level":0,
                       "email":"argo@xray"
                   }
@@ -77,11 +77,11 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/vless"
+                  "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8"
               }
           },
           "sniffing":{
-              "enabled":true,
+              "enabled":false,
               "destOverride":[
                   "http",
                   "tls",
@@ -97,7 +97,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"de04add9-5c68-8bab-950c-08cd5320df18",
+                      "id":"6ddd50ce-f0c3-4e5a-8f05-dec1745cf62a",
                       "alterId":0
                   }
               ]
@@ -105,7 +105,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/vmess"
+                  "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8vmess"
               }
           },
           "sniffing":{
@@ -125,7 +125,7 @@
           "settings":{
               "clients":[
                   {
-                      "password":"de04add9-5c68-8bab-950c-08cd5320df18"
+                      "password":"6ddd50ce-f0c3-4e5a-8f05-dec1745cf62a"
                   }
               ]
           },
@@ -133,7 +133,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/trojan"
+                  "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8trojan"
               }
           },
           "sniffing":{
@@ -162,7 +162,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/shadowsocks"
+                  "path":"/e050ee9a-3885-4865-a5d0-252a5b56cfe8shadowsocks"
               }
           },
           "sniffing":{
