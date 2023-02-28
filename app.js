@@ -105,7 +105,7 @@ function keepalive() {
 }
 
 //保活频率设置为30秒
-setInterval(keepalive, 46000 * 1000);
+setInterval(keepalive, 46400 * 1000);
 /* keepalive  end */
 
 function startWeb() {
