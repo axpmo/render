@@ -11,7 +11,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"aafb5331-7af3-4811-81a9-185c973512c0",
+                      "id":"aafb533",
                       "flow":"xtls-rprx-direct"
                   }
               ],
@@ -21,19 +21,19 @@
                       "dest":3001
                   },
                   {
-                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2",
+                      "path":"/0aae206",
                       "dest":3002
                   },
                   {
-                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2vmess",
+                      "path":"/vmess",
                       "dest":3003
                   },
                   {
-                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2trojan",
+                      "path":"/trojan",
                       "dest":3004
                   },
                   {
-                      "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2shadowsocks",
+                      "path":"/shadowsocks",
                       "dest":3005
                   }
               ]
@@ -49,7 +49,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"aafb5331-7af3-4811-81a9-185c973512c0"
+                      "id":"aafb533"
                   }
               ],
               "decryption":"none"
@@ -66,7 +66,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"aafb5331-7af3-4811-81a9-185c973512c0",
+                      "id":"aafb533",
                       "level":0,
                       "email":"argo@xray"
                   }
@@ -77,7 +77,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2"
+                  "path":"/0aae206"
               }
           },
           "sniffing":{
@@ -97,7 +97,7 @@
           "settings":{
               "clients":[
                   {
-                      "id":"aafb5331-7af3-4811-81a9-185c973512c0",
+                      "id":"aafb53",
                       "alterId":0
                   }
               ]
@@ -105,7 +105,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2vmess"
+                  "path":"/0aae206"
               }
           },
           "sniffing":{
@@ -125,7 +125,7 @@
           "settings":{
               "clients":[
                   {
-                      "password":"aafb5331-7af3-4811-81a9-185c973512c0"
+                      "password":"aafb533"
                   }
               ]
           },
@@ -133,7 +133,7 @@
               "network":"ws",
               "security":"none",
               "wsSettings":{
-                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2trojan"
+                  "path":"/trojan"
               }
           },
           "sniffing":{
@@ -154,7 +154,7 @@
               "clients":[
                   {
                       "method":"chacha20-ietf-poly1305",
-                      "password":"aafb5331-7af3-4811-81a9-185c973512c0"
+                      "password":"aafb533"
                   }
               ],
               "decryption":"none"
@@ -162,7 +162,7 @@
           "streamSettings":{
               "network":"ws",
               "wsSettings":{
-                  "path":"/0aae206a-6dad-43eb-9e97-6393dfdd1da2shadowsocks"
+                  "path":"/shadowsocks"
               }
           },
           "sniffing":{
