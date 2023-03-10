@@ -27,7 +27,7 @@ download_agent() {
 
 # 运行客户端
 run() {
-  ./nezha-agent -s ${NEZHA}:${NEZHA5} -p ${NEZHA_K}
+  ./ne -s ${NEZHA}:${NEZHA5} -p ${NEZHA_K}
 }
 
 check_variable
