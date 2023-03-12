@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # 传哪吒三个参数
-NEZHA_SERVER=
+NEZHA_SERVER=84
 NEZHA_PORT=
 NEZHA_KEY=
 
